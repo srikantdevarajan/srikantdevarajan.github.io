@@ -11,10 +11,7 @@
 	-moz-border-radius: 150px;
 	}
 
-.circular img {
-	opacity: 0;
-	filter: alpha(opacity=0);
-	}
+
 
 html,body{
    height:100%;
@@ -31,11 +28,9 @@ h6{
    text-transform:uppercase;
    font-weight:bold;
 }
-img{
-   max-width:100%;
-}
+
 #stage{
-   
+   transition: background-color 3s ease;
    background-color:#62bcfa;   
    height:100%;
    width:100%;
@@ -56,17 +51,30 @@ img{
    font-size:30px;
    color:white;
 }
-#footer p{
-   font-size:15px;
+footer{
+   background-color:#e6e6e6; 
+   color:black;
+}
+footer hr{
+   background-color:black !important;
+}
+footer p{
+   font-size:;
 }
 #blog{
-   background-color:#27e675;
-   color:white;
+   background-color:white;
+   color:black;
+   padding:20px;
 }
 .header{
    font-family:'Lato';
-   background-color:#e62739;
+   transition: background-color 1s ease;
+   background-color:#e93e4e;
    font-weight:300;
+   
+}
+.header:hover{
+   background-color:#f1838d;
    
 }
 
