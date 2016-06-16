@@ -31,7 +31,7 @@ h6{
 
 #stage{
    transition: background-color 3s ease;
-   background-color:#62bcfa;   
+   background: linear-gradient(#70e1f5,   #ffd194) ; 
    height:100%;
    width:100%;
    display:flex;
@@ -60,6 +60,9 @@ footer hr{
 }
 footer p{
    font-size:;
+}
+.image-info{
+   background-color:red;
 }
 #blog{
    background-color:white;
