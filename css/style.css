@@ -1,0 +1,14 @@
+#grey{
+  color: rgba(56, 55, 54, 0.50);
+}
+#title{
+  font-family:'Hind';
+  font-weight:300;
+}
+#link{
+  text-decoration:none;
+  color:black;
+}
+#link:hover{
+  
+}
